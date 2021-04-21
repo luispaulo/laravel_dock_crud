@@ -39,15 +39,11 @@
 
 ## Como iniciar o projeto
 
-- Foi criado o container através do laradock, 
-- pode abrir o projeto no terminal
-   acessar a pasta laradock
-   executar o comando :
+- Apos abrir a aplicação se registre no campo superior direito 
+- apos fazer o login vai esta disponível o CRUD 
 
-- ** php artisan migrate **
-
-
-
-- **[Luis Paulo GITHUB](https://github.com/luispaulo)**
+## DUVIDAS E CONTATOS
+- **[Whatsapp - Luis Paulo ](https://api.whatsapp.com/send?phone=5561982481004)**
+- **[Repo: GITHUB - Luis Paulo ](https://github.com/luispaulo)**
 
 
