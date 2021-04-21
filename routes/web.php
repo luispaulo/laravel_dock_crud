@@ -24,6 +24,7 @@ Route::group(['middleware' => 'web'], function(){
 //ALTERNATIVA PARA O METODO ABAIXO  ( Route::get('/alunos', 'AlunosController@index'); )
 Route::get('/alunos', [App\Http\Controllers\AlunosController::class, 'index'])->middleware('auth');
 Route::get('/alunos/novo', [App\Http\Controllers\AlunosController::class, 'novo'])->middleware('auth');
+Route::get('/alunos/agenda', [App\Http\Controllers\AlunosController::class, 'agenda'])->middleware('auth');
 Route::post('/alunos/adicionar', [App\Http\Controllers\AlunosController::class, 'adicionar'])->middleware('auth');
 Route::get('/alunos/{id}/editar', [App\Http\Controllers\AlunosController::class, 'editar'])->middleware('auth');
 Route::post('/alunos/update/{id}', [App\Http\Controllers\AlunosController::class, 'update'])->middleware('auth');

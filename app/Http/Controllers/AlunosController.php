@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 use Redirect;
-use App\Models\Alunos;  // ALTERNATIVA PARA ( use App\Aluno) 
+use App\Models\Alunos;  // ALTERNATIVA PARA ( use App\Aluno)
 use Illuminate\Http\Request;
 use App\Http\Requests\AlunoRequest;
 
@@ -16,6 +16,10 @@ class AlunosController extends Controller
 
     public function novo(){
         return view('alunos.form');
+    }
+
+    public function agenda(){
+        return view('alunos.agenda');
     }
 
     public function adicionar( AlunoRequest $request){

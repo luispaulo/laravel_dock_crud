@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -8,6 +9,7 @@
                 <div class="card-header text-center">
                     <h1>Listar de Alunos</h1>
                     <a class="btn btn-success" href="{{ url('alunos/novo')}}">Novo aluno</a>
+                    <a class="btn btn-success" href="{{ url('alunos/agenda')}}">Agenda do Professor</a>
                 </div>
 
                 <div class="card-body">
@@ -50,9 +52,6 @@
                             </table>
                         </div>
                     </div>
-
-
-             
                 </div>
             </div>
         </div>
