@@ -2,11 +2,14 @@
 
 ## Como iniciar o projeto
 
-- Foi criado o container através do laradock, 
+- Clonar o projeto no github
+https://github.com/luispaulo/laravel_dock_crud.git
+
+- Foi criado o container atravÃ©s do laradock, 
 - pode abrir o projeto na sua IDE:(PHPstorn,vs,...)
    crie um arquivo com nome: .env
    edite o arquivo .env (caso nao exista crie apartir do arquivo .env.example)
-- intrução de conexao mysql para alterar no arquivo:
+- intruÃ§Ã£o de conexao mysql para alterar no arquivo:
     DB_CONNECTION=mysql
     DB_HOST=mysql
     DB_PORT=3306
@@ -18,7 +21,7 @@
 
 - acesso o mysql myphpadmin na porta :
     http://localhost:8081/
-    acesse com os dados preenchidos na configuração do banco
+    acesse com os dados preenchidos na configuraÃ§Ã£o do banco
 
 
 - pode abrir o projeto no terminal
@@ -39,8 +42,8 @@
 
 ## Como iniciar o projeto
 
-- Apos abrir a aplicação se registre no campo superior direito 
-- apos fazer o login vai esta disponível o CRUD 
+- Apos abrir a aplicaÃ§Ã£o se registre no campo superior direito 
+- apos fazer o login vai esta disponÃ­vel o CRUD 
 
 ## DUVIDAS E CONTATOS
 - **[Whatsapp - Luis Paulo ](https://api.whatsapp.com/send?phone=5561982481004)**
