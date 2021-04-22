@@ -2,6 +2,10 @@
 
 ## Como iniciar o projeto
 
+- Clonar o projeto no github
+https://github.com/luispaulo/laravel_dock_crud.git
+
+
 - Foi criado o container através do laradock, 
 - pode abrir o projeto na sua IDE:(PHPstorn,vs,...)
    crie um arquivo com nome: .env
