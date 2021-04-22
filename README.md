@@ -5,10 +5,13 @@
 - Clonar o projeto no github
 https://github.com/luispaulo/laravel_dock_crud.git
 
-- Foi criado o container através do laradock, 
-- pode abrir o projeto na sua IDE:(PHPstorn,vs,...)
-   crie um arquivo com nome: .env
-   edite o arquivo .env (caso nao exista crie apartir do arquivo .env.example)
+## Foi criado o container através do laradock, 
+- Clonar o projeto laradock na raiz do projeto
+git clone https://github.com/Laradock/laradock.git
+
+
+ - configurar o arquivo .env da raiz do projeto 'laravel_dock_crud' com os dados do banco mysql
+
 - intrução de conexao mysql para alterar no arquivo:
     DB_CONNECTION=mysql
     DB_HOST=mysql
@@ -23,10 +26,10 @@ https://github.com/luispaulo/laravel_dock_crud.git
     http://localhost:8081/
     acesse com os dados preenchidos na configuração do banco
 
-
+## iniciar o ambiente com docker 
 - pode abrir o projeto no terminal
    acessar a pasta laradock
-   executar o comando :
+   executar o comando de dentro da pasta laradock:
 - ** docker-composer up -d nginx mysql phpmyadmin **
 
    executar o comando :
