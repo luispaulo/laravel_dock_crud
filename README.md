@@ -69,10 +69,10 @@ laravel_dock_crud
    executar NOVAMENTE comando :  php artisan migrate 
 ```
 
-## Como iniciar o projeto
+## Como abrir o projeto CRUD
 
-- Apos abrir a aplicação se registre no campo superior direito 
-- apos fazer o login vai esta disponível o CRUD 
+- ACESSE O caminho configurado no nginx ( 127.0.0.1 laracrud.local.test )
+- apos fazer o login vai esta disponível o CRUD (caso nao tenha o login registrar na aplicacao)
 
 ## DUVIDAS E CONTATOS
 - **[Whatsapp - Luis Paulo ](https://api.whatsapp.com/send?phone=5561982481004)**
