@@ -11,19 +11,19 @@ git clone https://github.com/Laradock/laradock.git
 
 #### Estrutura do projeto
 
-* laradock
-* laravel_dock_crud
+```* laradock
+* laravel_dock_crud```
 
 
  - configurar o arquivo .env da raiz do projeto 'laravel_dock_crud' com os dados do banco mysql
 
 - intrução de conexao mysql para alterar no arquivo:
-    DB_CONNECTION=mysql
+    ```DB_CONNECTION=mysql
     DB_HOST=mysql
     DB_PORT=3306
     DB_DATABASE=laravel
     DB_USERNAME=root
-    DB_PASSWORD=root
+    DB_PASSWORD=root```
 
 ## configuarar banco de dados mysql
 
