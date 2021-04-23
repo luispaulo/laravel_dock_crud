@@ -13,7 +13,7 @@ git clone https://github.com/Laradock/laradock.git
 
 ```
 laradock
-    laravel_dock_crud
+laravel_dock_crud
 ```
 
 
@@ -55,16 +55,19 @@ laradock
 - [ ] salve o arquivo
 - [ ] OBS: verificar permissao utilize o 'sudo nano /etc/hosts'
 
-   executar o comando :
-- ** php artisan migrate **
+
+```
+   executar o comando :  php artisan migrate 
+```
 
    caso ocorra erro comandos que pode utilizar pra limpar cache no artisan :
 - ** php artisan config:clear **
 - ** php artisan route:cache **
 - ** php artisan cache:clear **
 
-    pode executar NOVAMENTE o comando
-- ** php artisan migrate **
+```
+   executar NOVAMENTE comando :  php artisan migrate 
+```
 
 ## Como iniciar o projeto
 
