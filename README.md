@@ -9,6 +9,12 @@ https://github.com/luispaulo/laravel_dock_crud.git
 - Clonar o projeto laradock na mesma pasta do projeto CRUD
 git clone https://github.com/Laradock/laradock.git
 
+#### Estrutura do projeto
+
+* laradock
+* laravel_dock_crud
+
+
  - configurar o arquivo .env da raiz do projeto 'laravel_dock_crud' com os dados do banco mysql
 
 - intrução de conexao mysql para alterar no arquivo:
@@ -33,17 +39,17 @@ git clone https://github.com/Laradock/laradock.git
 - ** docker-composer up -d nginx mysql phpmyadmin **
 
 ## Configurando o NGINX laradock
-- dentro do diretorio laradock, acesse a pasta nginx/sites/ 
-- crie um arquivo com a extencao '.conf' (ex: laracrud.conf) dentro da pasta sites
-- edite o arquivo com os dados
-- server_name laracrud.local.test;(obs escolha o nome do projeto da sua preferencia)
-- root /var/www/laravelpaulo/public;
-- salve o arquivo
+- [ ] dentro do diretorio laradock, acesse a pasta nginx/sites/ 
+- [ ] crie um arquivo com a extencao '.conf' (ex: laracrud.conf) dentro da pasta sites
+- [ ] edite o arquivo com os dados
+- [ ] server_name laracrud.local.test;(obs escolha o nome do projeto da sua preferencia)
+- [ ] root /var/www/laravelpaulo/public;
+- [ ] salve o arquivo
 
    edite o arquivo HOSTS, no diretorio /etc/:(Mac Os) , verifique no WINDOS esse caminho da pasta ETC
-- Acrescente o caminhio 127.0.0.1 laracrud.local.test
-- salve o arquivo
-- OBS: verificar permissao utilize o 'sudo nano /etc/hosts'
+- [ ] Acrescente o caminhio 127.0.0.1 laracrud.local.test
+- [ ] salve o arquivo
+- [ ] OBS: verificar permissao utilize o 'sudo nano /etc/hosts'
 
    executar o comando :
 - ** php artisan migrate **
