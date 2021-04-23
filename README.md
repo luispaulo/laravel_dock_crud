@@ -2,13 +2,12 @@
 
 ## Como iniciar o projeto
 
-- Clonar o projeto no github
+- Clonar o projeto CRUD do github
 https://github.com/luispaulo/laravel_dock_crud.git
 
 ## Foi criado o container através do laradock, 
-- Clonar o projeto laradock na raiz do projeto
+- Clonar o projeto laradock na mesma pasta do projeto CRUD
 git clone https://github.com/Laradock/laradock.git
-
 
  - configurar o arquivo .env da raiz do projeto 'laravel_dock_crud' com os dados do banco mysql
 
@@ -25,12 +24,26 @@ git clone https://github.com/Laradock/laradock.git
 - acesso o mysql myphpadmin na porta :
     http://localhost:8081/
     acesse com os dados preenchidos na configuração do banco
+  
 
 ## iniciar o ambiente com docker 
 - pode abrir o projeto no terminal
    acessar a pasta laradock
    executar o comando de dentro da pasta laradock:
 - ** docker-composer up -d nginx mysql phpmyadmin **
+
+## Configurando o NGINX laradock
+- dentro do diretorio laradock, acesse a pasta nginx/sites/ 
+- crie um arquivo com a extencao '.conf' (ex: laracrud.conf) dentro da pasta sites
+- edite o arquivo com os dados
+- server_name laracrud.local.test;(obs escolha o nome do projeto da sua preferencia)
+- root /var/www/laravelpaulo/public;
+- salve o arquivo
+
+   edite o arquivo HOSTS, no diretorio /etc/:(Mac Os) , verifique no WINDOS esse caminho da pasta ETC
+- Acrescente o caminhio 127.0.0.1 laracrud.local.test
+- salve o arquivo
+- OBS: verificar permissao utilize o 'sudo nano /etc/hosts'
 
    executar o comando :
 - ** php artisan migrate **
@@ -40,7 +53,7 @@ git clone https://github.com/Laradock/laradock.git
 - ** php artisan route:cache **
 - ** php artisan cache:clear **
 
-    pode executar novamente o comando
+    pode executar NOVAMENTE o comando
 - ** php artisan migrate **
 
 ## Como iniciar o projeto
