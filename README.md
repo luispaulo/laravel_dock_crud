@@ -71,7 +71,7 @@ laravel_dock_crud
 
 ## Como abrir o projeto CRUD
 
-- ACESSE O caminho configurado no nginx ( 127.0.0.1 laracrud.local.test )
+- ACESSE O caminho configurado no nginx no navegador de internet (laracrud.local.test )
 - apos fazer o login vai esta disponível o CRUD (caso nao tenha o login registrar na aplicacao)
 
 ## DUVIDAS E CONTATOS
