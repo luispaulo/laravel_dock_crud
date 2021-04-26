@@ -27,7 +27,7 @@ class AlunoRequest extends FormRequest
         return [
             'nome'  =>  ['required','string'],
             'email' =>  ['present','email'],
-            'cpf'   =>  ["required","unique:alunos,cpf,{$this->id}","digits:11","numeric",new RightCpf],
+            'cpf'   =>  ["required","unique:alunos,cpf,{$this->id}",new RightCpf],
         ];
     }
 }

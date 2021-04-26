@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -37,7 +36,7 @@
                         </div>
                         <div class="form-group">
                             <label for="cpf">CPF:</label>
-                            <input name="cpf" type="text" class="form-control  @error('cpf') is-invalid @enderror" id="cpf" placeholder="CPF" value="{{ $alunos->cpf }}">
+                            <input  name="cpf" type="text" class="form-control  @error('cpf') is-invalid @enderror" id="cpf" placeholder="CPF" value="{{ $alunos->cpf }}" onkeypress="$(this).mask('999.999.999-99')">
                             @if ($errors->has('cpf'))
                                 <span class="invalid-feedback">
                                     <strong>{{ $errors->first('cpf') }}</strong>
@@ -72,7 +71,7 @@
                         </div>
                         <div class="form-group">
                             <label for="cpf">CPF:</label>
-                            <input name="cpf" type="text" class="form-control  @error('cpf') is-invalid @enderror" id="cpf" placeholder="ex: 01273476158(somente numero)" value="{{old('cpf')}}">
+                            <input name="cpf" type="text" class="form-control  @error('cpf') is-invalid @enderror" id="cpf" placeholder="ex: 01273476158(somente numero)" value="{{old('cpf')}}" onkeypress="$(this).mask('999.999.999-99')">
                             @if ($errors->has('cpf'))
                                 <span class="invalid-feedback">
                                     <strong>{{ $errors->first('cpf') }}</strong>
