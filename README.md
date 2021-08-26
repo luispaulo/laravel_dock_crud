@@ -1,11 +1,10 @@
-<p align="center"><a href="http://www.brtk.com.br" target="_blank"><img src="http://www.brtk.com.br/img/brTKLogo.png" width="400"></a></p>
 
 ## Como iniciar o projeto
 
 - Clonar o projeto CRUD do github
 https://github.com/luispaulo/laravel_dock_crud.git
 
-## Foi criado o container através do laradock, 
+## Foi criado o container atravÃ©s do laradock, 
 - Clonar o projeto laradock na mesma pasta do projeto CRUD
 git clone https://github.com/Laradock/laradock.git
 
@@ -19,7 +18,7 @@ laravel_dock_crud
 
  - configurar o arquivo .env da raiz do projeto 'laravel_dock_crud' com os dados do banco mysql
 
-- intrução de conexao mysql para alterar no arquivo:
+- intruÃ§Ã£o de conexao mysql para alterar no arquivo:
 
 ```DB_CONNECTION=mysql
     DB_HOST=mysql
@@ -33,7 +32,7 @@ laravel_dock_crud
 
 - acesso o mysql myphpadmin na porta :
     http://localhost:8081/
-    acesse com os dados preenchidos na configuração do banco
+    acesse com os dados preenchidos na configuraÃ§Ã£o do banco
   
 
 ## iniciar o ambiente com docker 
@@ -72,7 +71,7 @@ laravel_dock_crud
 ## Como abrir o projeto CRUD
 
 - ACESSE O caminho configurado no nginx no navegador de internet (laracrud.local.test )
-- apos fazer o login vai esta disponível o CRUD (caso nao tenha o login registrar na aplicacao)
+- apos fazer o login vai esta disponÃ­vel o CRUD (caso nao tenha o login registrar na aplicacao)
 
 ## DUVIDAS E CONTATOS
 - **[Whatsapp - Luis Paulo ](https://api.whatsapp.com/send?phone=5561982481004)**
